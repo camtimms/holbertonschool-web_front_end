@@ -1,5 +1,9 @@
 @import url('normalize.css');
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -85,4 +89,9 @@ a:active {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
