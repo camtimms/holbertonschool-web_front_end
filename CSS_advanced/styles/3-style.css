@@ -12,11 +12,11 @@ html {
 }
 
 body {
-  color: color-text;
+  color: text-color;
 }
 
 a {
-  color:#161616;
+  color: text-color;
 }
 
 .visually-hidden {
