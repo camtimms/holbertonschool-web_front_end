@@ -1,7 +1,7 @@
 @import url('normalize.css');
 
-.box {
-  box-sizing: content-box;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 html {
